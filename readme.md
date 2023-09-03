@@ -13,15 +13,34 @@ To use xPermuteString, you'll need to include the provided TypeScript file in yo
 
    ```typescript
    import { xPermuteString } from 'x-permuate-string'
-
-   xPermuteString
+   const key: string = "AbcD";
+   xPermuteString(key)
+   // Output:
+   // [
+   //    'abcd', 'abcD', 'abCd',
+   //    'abCD', 'aBcd', 'aBcD',
+   //    'aBCd', 'aBCD', 'Abcd',
+   //    'AbcD', 'AbCd', 'AbCD',
+   //    'ABcd', 'ABcD', 'ABCd',
+   //    'ABCD'
+   // ]
 
 2. Import the `xPermuteString` class into your Javascript code:
 
    ```javascript
    const { xPermuteString } = require("x-permute-string")
 
-   xPermuteString
+   const key = "AbcD";
+   xPermuteString(key)
+   // Output:
+   // [
+   //    'abcd', 'abcD', 'abCd',
+   //    'abCD', 'aBcd', 'aBcD',
+   //    'aBCd', 'aBCD', 'Abcd',
+   //    'AbcD', 'AbCd', 'AbCD',
+   //    'ABcd', 'ABcD', 'ABCd',
+   //    'ABCD'
+   // ]
 
 ## Support Me
 
