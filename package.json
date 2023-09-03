@@ -1,0 +1,24 @@
+{
+  "name": "x-permute-string",
+  "version": "0.0.1",
+  "description": "**xPermuteString** is a TypeScript function that generates all possible case permutations of a given string, including special characters. It's a versatile tool for string manipulation and can be used in various applications.",
+  "main": "xPermuteString.js",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "build": "npx tsc xPermuteString.ts"
+  },
+  "author": "nhutdm",
+  "license": "MIT",
+  "keywords": [
+    "x-permute-string",
+    "x permute string",
+    "permutes string",
+    "string permutation"
+  ]
+}
